@@ -2446,13 +2446,16 @@ class NewsAnalyzer:
          #   ("baidu", "百度热搜"),
             ("wallstreetcn-hot", "华尔街见闻"),
             ("thepaper", "澎湃新闻"),
-            ("bilibili-hot-search", "bilibili 热搜"),
+         #  ("bilibili-hot-search", "bilibili 热搜"),
             ("cls-hot", "财联社热门"),
             ("ifeng", "凤凰网"),
          #   "tieba",
-            "weibo",
+            ("weibo" "微博"),
          #   "douyin",
-            "zhihu",
+            ("zhihu", "知乎"),
+            ("ithome", "IT之家"),
+            ("_36kr", "36氪"),
+            ("juejin", "稀土掘金"),
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
