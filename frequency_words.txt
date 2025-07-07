@@ -1,13 +1,13 @@
 OPPO
 +FIND
 
-DeepSeek
-梁文锋
-
 华为
-任正非
-鸿蒙
-HarmonyOS
++鸿蒙
+
+Samsung
+三星
+OneUI
++Galaxy
 
 比亚迪
 王传福
@@ -44,6 +44,7 @@ google
 gemini
 deepmind
 
+DeepSeek
 chatgpt
 openai
 
@@ -56,12 +57,13 @@ mac
 ios
 
 ai
+!uai
 !gai
+网络安全
 人工智能
 
 汽车
 自动驾驶
-l3
 
 机器人
 
