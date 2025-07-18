@@ -50,8 +50,8 @@ weight:
 platforms:
   - id: "ithome"
     name: "IT之家"
-  - id: "_36kr"
-    name: "36氪"
+#  - id: "_36kr"
+#    name: "36氪"
   - id: "wallstreetcn-hot"
     name: "华尔街见闻"
   - id: "thepaper"
