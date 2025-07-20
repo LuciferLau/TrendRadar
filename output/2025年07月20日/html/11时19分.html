@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-07-20 11:19:34</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/869/410.htm" target="_blank" class="news-link">韩国股民狂买中国股票，小米、比亚迪、宁德时代金额前三</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/869/402.htm" target="_blank" class="news-link">比亚迪腾势汽车 OTA 年中大礼包官宣，含 40+ 项功能上新、20+ 项优化</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">汽车 极氪 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/869/411.htm" target="_blank" class="news-link">特斯拉首家超级充电餐厅今日起试营业：机器人卖爆米花、两个汽车影院大屏</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8l8V6thRzE5" target="_blank" class="news-link">洛杉矶汽车撞人事故致30人伤，司机遭围殴中枪</a> [8] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1929871927457080536" target="_blank" class="news-link">福耀科技大学最低投档线超华南理工、厦门大学、中国政法等多所双一流名校，怎样解读？福耀科技有哪些优势？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/869/395.htm" target="_blank" class="news-link">替代传统汽柴油燃料，吉利远程醇氢科技完成超 2 亿美元第三轮融资</a> [11] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3751474" target="_blank" class="news-link">报道：英伟达H20库存有限，且没有复产计划</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7527633170318688256" target="_blank" class="news-link">AI让我6天开发完移动端大屏编辑器，卷吗？</a> [26] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
