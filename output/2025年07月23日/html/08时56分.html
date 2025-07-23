@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 35</p><p>生成时间: 2025-07-23 08:56:21</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.71%</td>
+                    <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/870/036.htm" target="_blank" class="news-link">微软推出首款 5G Surface Laptop 笔记本：基于英特尔平台</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/870/033.htm" target="_blank" class="news-link">微软 Win11 24H2 发布 7 月可选更新：增强 Recall、蓝屏改黑屏</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.71%</td>
+                    <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/870/038.htm" target="_blank" class="news-link">向骚扰电话说不：苹果 iOS 26 增强来电筛选，3 种方式处理未知号码来电</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/870/026.htm" target="_blank" class="news-link">苹果 iOS 26 重启新闻和娱乐通知摘要：斜体展示、标注 AI 生成</a> [10] <font color='grey'>- 08时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">华为</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/870/034.htm" target="_blank" class="news-link">不止 Pura 80：华为鸿蒙 HarmonyOS 系统“防窥保护”功能将适配 Mate 70 系列部分机型</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">腾讯 阿里 京东 字节</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/870/027.htm" target="_blank" class="news-link">阿里云通义千问 Qwen3-Coder 宣布开源：480B 参数、原生支持 256K 上下文，可与 Claude Sonnet4 媲美</a> [9] <font color='grey'>- 08时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/870/032.htm" target="_blank" class="news-link">英伟达发布 577.00 驱动：首发支持国产 3A 游戏《明末：渊虚之羽》、《无畏契约》虚幻 5 更新，《卡拉彼丘》《怪物猎人：荒野》新增 DLSS 优设</a> [6] <font color='grey'>- 08时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">ai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1147013" target="_blank" class="news-link">一點關於 AI 編程的思考</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">汽车 极氪 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3751670" target="_blank" class="news-link">日本“投降”？特朗普称“美日达成协议，日本接受15%税率，开放汽车、大米市场，对美投资5500亿美元”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3751615" target="_blank" class="news-link">Meme股“集体暴动”，科技股受挫拖累纳指，国内双焦夜盘继续暴涨，黄金重回3400美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时56分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
