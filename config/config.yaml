@@ -77,26 +77,16 @@ notification:
     wework_msg_type: "markdown" # 企业微信消息类型：markdown(群机器人) 或 text(个人微信应用)
     telegram_bot_token: "" # Telegram Bot Token
     telegram_chat_id: "" # Telegram Chat ID
-<<<<<<< HEAD
-    email_from: WEBHOOK_EMAILF # 发件人邮箱地址
-    email_password: WEBHOOK_EMAILPW # 发件人邮箱密码或授权码
-    email_to: WEBHOOK_EMAILT # 收件人邮箱地址，多个收件人用逗号分隔
-=======
     email_from: "${{ secrets.EM_FM }}" # 发件人邮箱地址
     email_password: "${{ secrets.EM_PW }}"  # 发件人邮箱密码或授权码
     email_to: "${{ secrets.EM_TO }}"  # 收件人邮箱地址，多个收件人用逗号分隔
->>>>>>> 2f25e95b4cb1672b143d1d37be271e2ccde72145
     email_smtp_server: "" # SMTP服务器地址（可选，留空自动识别）
     email_smtp_port: "" # SMTP端口（可选，留空自动识别）
     ntfy_server_url: "https://ntfy.sh" # ntfy服务器地址，默认使用公共服务，可改为自托管地址
     ntfy_topic: "" # ntfy主题名称
     ntfy_token: "" # ntfy访问令牌（可选，用于私有主题）
-<<<<<<< HEAD
     bark_url: "" # Bark推送URL（格式：https://api.day.app/your_device_key 或自建服务器地址）
 
-=======
-    
->>>>>>> 2f25e95b4cb1672b143d1d37be271e2ccde72145
 # 用于让关注度更高的新闻在更前面显示，即用算法重新组合不同平台的热搜排序形成你侧重的热搜，合起来是 1 就行
 weight:
   rank_weight: 0.6 # 排名权重
@@ -105,37 +95,9 @@ weight:
 
 # name 可以定义任意名称，只具有显示作用，即使项目运行了几天后，忽然改掉 name 也不会影响代码的正常运行
 platforms:
-<<<<<<< HEAD
-# - id: "ithome"
-#   name: "IT之家"
-# - id: "wallstreetcn-hot"
-#   name: "华尔街见闻"
-# - id: "thepaper"
-#   name: "澎湃新闻"
-# - id: "juejin"
-#   name: "稀土掘金"
-# - id: "cls-hot"
-#   name: "财联社热门"
-# - id: "ifeng"
-#   name: "凤凰网"
-# - id: "zhihu"
-#   name: "知乎"
-# - id: "sspai"
-#   name: "少数派"
-# - id: "v2ex"
-#   name: "V2EX"
-    
   # === 综合新闻媒体类 ===
   - id: "toutiao"
     name: "今日头条"
-  - id: "baidu"
-    name: "百度热搜"
-=======
-  
-  # === 综合新闻媒体类 ===
-  - id: "toutiao"
-    name: "今日头条"
->>>>>>> 2f25e95b4cb1672b143d1d37be271e2ccde72145
   - id: "thepaper"
     name: "澎湃新闻"
   - id: "ifeng"
@@ -172,13 +134,6 @@ platforms:
   # === 社交/短视频/娱乐类 ===
   - id: "weibo"
     name: "微博"
-<<<<<<< HEAD
-  - id: "douyin"
-    name: "抖音"
-  - id: "bilibili-hot-search"
-    name: "bilibili 热搜"
-=======
->>>>>>> 2f25e95b4cb1672b143d1d37be271e2ccde72145
   - id: "tieba"
     name: "贴吧"
   - id: "zhihu"
@@ -211,8 +166,6 @@ platforms:
   # === 其他/工具类 ===
   - id: "chongbuluo"
     name: "虫部落"
-<<<<<<< HEAD
-=======
 
   # ======================================================
   # 暂时失败的渠道（可能需要修复或接口已变更）
@@ -241,4 +194,3 @@ platforms:
   #   name: "36氪"           # 失败原因：接口可能已变更
   # - id: "linuxdo"
   #   name: "LinuxDo"        # 失败原因：接口可能已变更
->>>>>>> 2f25e95b4cb1672b143d1d37be271e2ccde72145
