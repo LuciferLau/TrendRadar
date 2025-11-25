@@ -1,3 +1,4 @@
+<<<<<<< HEAD:README.md
 
 <a href="https://github.com/sansan0/TrendRadar" title="TrendRadar">
   <img src="/_image/banner.webp" alt="TrendRadar Banner" width="80%">
@@ -2481,3 +2482,6 @@ GPL-3.0 License
 
 </div>
 >>>>>>> upstream/master:README.md
+=======
+🚀 最快<strong>30秒</strong>部署的热点助手 —— 告别无效刷屏，只看真正关心的新闻资讯
+>>>>>>> 2f25e95b4cb1672b143d1d37be271e2ccde72145:readme.md
